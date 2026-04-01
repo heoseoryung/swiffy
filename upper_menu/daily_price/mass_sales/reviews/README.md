@@ -6,5 +6,6 @@
 <img src="6.png" style="width: 700px; height: auto;" alt="설명">
 <img src="7.png" style="width: 700px; height: auto;" alt="설명">
 <img src="8.png" style="width: 700px; height: auto;" alt="설명">
+<img src="selection_review_item.png" style="width: 700px; height: auto;" alt="설명">
 <img src="9.png" style="width: 700px; height: auto;" alt="설명">
 <img src="10.png" style="width: 700px; height: auto;" alt="설명">
