@@ -13,7 +13,11 @@
 <img src="5.png" style="width: 500px; height: auto;" alt="설명">
 <img src="5_1.png" style="width: 500px; height: auto;" alt="설명">
 <img src="6.png" style="width: 500px; height: auto;" alt="설명">
+<img src="6_1.png" style="width: 500px; height: auto;" alt="설명">
+<img src="6_2.png" style="width: 500px; height: auto;" alt="설명">
+<img src="6_3.png" style="width: 500px; height: auto;" alt="설명">
 <img src="7.png" style="width: 500px; height: auto;" alt="설명">
+<img src="7_1.png" style="width: 500px; height: auto;" alt="설명">
 <img src="8.png" style="width: 500px; height: auto;" alt="설명">
 <img src="8_1.png" style="width: 500px; height: auto;" alt="설명">
 <img src="8_2.png" style="width: 500px; height: auto;" alt="설명">
