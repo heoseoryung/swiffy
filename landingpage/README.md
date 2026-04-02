@@ -22,6 +22,20 @@
 | `id` | `Integer` | ✅ | 사용자의 고유 ID (Path Variable) |
 | `include_posts` | `Boolean` | ❌ | 작성한 포스트 포함 여부 (Query Param) |
 
+### **Request Body**
+```json
+{
+  "?": "?",
+  "data": {
+    "id": 1,
+    "username": "gemini_user",
+    "email": "hello@gemini.ai",
+    "created_at": "2026-04-02T09:00:00Z"
+  }
+}
+```
+
+
 #### **Success Response**
 
   * **Code:** 200 OK
@@ -68,6 +82,15 @@
 
 
 <img src="2.png" style="width: 800px; height: auto;" alt="설명">
+### 1\. API 개요 (선택 사항)
+
+> **Base URL:** `https://api.example.com/v1`  
+> 
+
+
+
+
+
 <img src="3.png" style="width: 800px; height: auto;" alt="설명">
 <img src="4.png" style="width: 800px; height: auto;" alt="설명">
 <img src="5.png" style="width: 800px; height: auto;" alt="설명">
