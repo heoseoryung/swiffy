@@ -21,16 +21,10 @@
 | :--- | :--- | :---: | :--- |
 | - | - | - | - |
 
-### **Request Body**
+#### **Request Body**
 ```json
 {
-  "?": "?",
-  "data": {
-    "id": 1,
-    "username": "gemini_user",
-    "email": "hello@gemini.ai",
-    "created_at": "2026-04-02T09:00:00Z"
-  }
+  
 }
 ```
 
