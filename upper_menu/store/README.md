@@ -1,11 +1,9 @@
 <img src="upper_menu.png" style="width: 500px; height: auto;" alt="설명">
-
-
-
 <img src="store_sub_menu.png" style="width: 500px; height: auto;" alt="설명">
 <img src="store_sub_menu2.png" style="width: 500px; height: auto;" alt="설명">
 <img src="store_all_page_sorting.png" style="width: 500px; height: auto;" alt="설명">
 <img src="store_all_page2.png" style="width: 500px; height: auto;" alt="설명">
+
 * 백엔드
 1. 큰 카테고리는 3개
 2. 작은 카테고리는 제품시리즈
