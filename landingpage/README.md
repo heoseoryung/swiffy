@@ -265,7 +265,7 @@
   "data": {
     "Id" : ,
     "title": "",
-    "titleImageUrl": "",
+    "mainIamgeUrl": "",
     "content": "",
     "contentImageUrl": ""
   }
@@ -286,14 +286,16 @@
 * 
 -----
 
-### 1\. API 개요 (선택 사항)
+<img src="5.png" style="width: 800px; height: auto;" alt="설명">
+
+### 1\. API 개요
 
 > **Base URL:** `https://api.example.com/v1`  
 > **Authentication:** Bearer Token (Header: `Authorization`)
 
 -----
 
-### 2\. 엔드포인트 상세 (Example)
+### 2\. 엔드포인트 상세 
 
 ### `GET /users/{id}`
 
@@ -317,10 +319,11 @@
 {
   "status": "success",
   "data": {
-    "id": 1,
-    "username": "gemini_user",
-    "email": "hello@gemini.ai",
-    "created_at": "2026-04-02T09:00:00Z"
+    "Id" : ,
+    "title": "",
+    "mainIamgeUrl": "",
+    "content": "",
+    "contentImageUrl": ""
   }
 }
 ```
@@ -332,15 +335,20 @@
   * **Code:** 401 UNAUTHORIZED
   * **Content:** `{ "message": "Invalid token" }`
 
+
+#### 참고사항
+
+<img src="5.png" style="width: 800px; height: auto;" alt="설명">
+
 -----
-### 1\. API 개요 (선택 사항)
+### 1\. API 개요
 
 > **Base URL:** `https://api.example.com/v1`  
 > **Authentication:** Bearer Token (Header: `Authorization`)
 
 -----
 
-### 2\. 엔드포인트 상세 (Example)
+### 2\. 엔드포인트 상세 
 
 ### `GET /users/{id}`
 
@@ -364,10 +372,28 @@
 {
   "status": "success",
   "data": {
-    "id": 1,
-    "username": "gemini_user",
-    "email": "hello@gemini.ai",
-    "created_at": "2026-04-02T09:00:00Z"
+    "Id" : ,
+    "title": "",
+    "firstreviewIamgeUrl": "",
+    "star": "",
+    "content": "",
+    "평균" : "",
+    "리뷰개수" : ,
+  }
+{
+  "status": "success",
+  "data": {
+    "Id" : ,
+    "title": "",
+    "firstreviewIamgeUrl": "",
+    "star": "",
+    "content": "",
+    "평균" : "",
+    "리뷰개수" : ,
+    "구매자이름" : "",
+    "좋아요 개수" : "",
+    "댓글" : "",
+    "작성일자" : ,
   }
 }
 ```
@@ -379,5 +405,6 @@
   * **Code:** 401 UNAUTHORIZED
   * **Content:** `{ "message": "Invalid token" }`
 
------
+
+#### 참고사항
 
