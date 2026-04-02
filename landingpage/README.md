@@ -19,8 +19,7 @@
 
 | Name | Type | Required | Description |
 | :--- | :--- | :---: | :--- |
-| `id` | `Integer` | ✅ | 사용자의 고유 ID (Path Variable) |
-| `include_posts` | `Boolean` | ❌ | 작성한 포스트 포함 여부 (Query Param) |
+| - | - | - | - |
 
 ### **Request Body**
 ```json
