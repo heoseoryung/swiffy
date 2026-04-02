@@ -66,23 +66,123 @@ Res
 
 
 <img src="4.png" style="width: 500px; height: auto;" alt="설명">
+
+## 회원정보 수정
+
+```
+아이디
+이름
+전화번호
+이메일
+주소 ( 주소를 입력했을 시 )
+수신여부 (sns/이메일)
+```
+Res
+```
+비밀번호
+비밀번호확인
+주소 ( 첫가입시 )
+휴대전화
+수신여부 ( 수신함 수신안함 )
+이메일
+회원탈퇴
+
+```
+
+
 <img src="5.png" style="width: 500px; height: auto;" alt="설명">
+
+```
+관심상품리스트 ( 이미지 / 타이틀 / 가격 / 옵션 )
+```
+Res 
+```
+옵션
+장바구니 담기
+삭제여부
+주문여
+```
+
 <img src="5_1.png" style="width: 500px; height: auto;" alt="설명">
+
+```
+백엔드에서 5개이상 있으면 문구가 뜨게 
+```
+
 <img src="6.png" style="width: 500px; height: auto;" alt="설명">
+
+```
+총적립금
+사용가능 적립금
+사용된 적립
+환불예정 적립금
+```
+
 <img src="6_1.png" style="width: 500px; height: auto;" alt="설명">
+
+```
+날짜
+적립금
+내용
+적립내역 10개씩
+```
+
 <img src="6_2.png" style="width: 500px; height: auto;" alt="설명">
+이거 안하는 내용
 <img src="6_3.png" style="width: 500px; height: auto;" alt="설명">
+이거 안하는 내
 <img src="7.png" style="width: 500px; height: auto;" alt="설명">
+예치금 보류
+
 <img src="7_1.png" style="width: 500px; height: auto;" alt="설명">
+예치금 보류
 <img src="8.png" style="width: 500px; height: auto;" alt="설명">
+
+```
+쿠폰 내역
+쿠폰명
+할인율
+적립가능 여부
+비고
+
+쿠폰내역 10개씩
+```
+
+Res
+```
+쿠폰인증내역
+```
+
 <img src="8_1.png" style="width: 500px; height: auto;" alt="설명">
+
+
 <img src="8_2.png" style="width: 500px; height: auto;" alt="설명">
 <img src="9.png" style="width: 500px; height: auto;" alt="설명">
 <img src="10.png" style="width: 500px; height: auto;" alt="설명">
 <img src="11.png" style="width: 500px; height: auto;" alt="설명">
 <img src="12.png" style="width: 500px; height: auto;" alt="설명">
+
+```
+배송지 이름 ( 지정 안하면 미지정)
+저장된 주소 ( 우편번호 / 주소 / 국가번호 / 전화번호 )
+```
+
+Res
+```
+신규 배송지 등록 ( 배송지명 / 성명 / 주소 / 휴대전화 / 기본 배송지 저장여부 )
+배송지 수정 ( 배송지명 / 성명 / 주소 / 휴대전화 / 기본 배송지 저장여부 )
+삭제요
+```
+
 <img src="13.png" style="width: 500px; height: auto;" alt="설명">
 <img src="14.png" style="width: 500px; height: auto;" alt="설명">
+
+```
+신청 내역
+혜지 내역
+보류
+```
+
 <img src="14_1.png" style="width: 500px; height: auto;" alt="설명">
 
 ## 게시글 관리 뷰의 댓글 선택시 렌더링 화면
