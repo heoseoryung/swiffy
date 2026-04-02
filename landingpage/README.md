@@ -5,7 +5,7 @@
 ### 1\. API 개요 (선택 사항)
 
 > **Base URL:** `https://api.example.com/v1`  
-> **Authentication:** Bearer Token (Header: `Authorization`)
+> **Authentication:** JWT Access/Refresh token (Cookie 헤더)
 
 -----
 
