@@ -263,10 +263,11 @@
 {
   "status": "success",
   "data": {
-    "id": 1,
-    "username": "gemini_user",
-    "email": "hello@gemini.ai",
-    "created_at": "2026-04-02T09:00:00Z"
+    "Id" : ,
+    "title": "",
+    "titleImageUrl": "",
+    "content": "",
+    "contentImageUrl": ""
   }
 }
 ```
@@ -281,7 +282,7 @@
 
 #### 참고사항
 
-* 타이틀, 타이틀이미지Url, content, content 이미지(상세조회는 content이미지카드로 표현) 
+*
 * 
 -----
 
