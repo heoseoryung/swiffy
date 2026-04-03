@@ -5,6 +5,10 @@
 | `Authorization` | `JWT(Cookie)` | ✅ | API 접근을 위한 인증 토큰 |
 | `Accept` | `application/json` | ✅ | 응답받을 데이터 형식 지정 |
 
+### 2\. 엔드포인트 상세 (Example)
+
+### `GET` /api/v1/main
+
 <img src="1.png" style="width: 800px; height: auto;" alt="설명">
 
 # 필요시 협의 내용들
@@ -19,10 +23,6 @@
 
 ## 지금은 사용자에게 렌더링하는 페이지
 
-### 2\. 엔드포인트 상세 (Example)
-
-### `GET` /api/v1/main
-
 사용자의 상세 정보를 조회합니다.
 
 #### **Request Parameters**
@@ -30,7 +30,7 @@
 | Name | Type | Required | Description |
 | :--- | :--- | :---: | :--- |
 | ImageUrl | - | - | - |
-| 배너로 들어간 Url | | | |
+| productUrl | | | |
 
 #### **Request Body**
 ```json
@@ -52,7 +52,8 @@
 {
   "status": "success",
   "data": {
-    "produtpageinfo :
+    "produtpageinfo : ~~
+    (etc..)
   }
 }
 ```
@@ -127,13 +128,10 @@
 #### 참고사항
 베스트셀러는 [전체판매1위] 이런 템플릿으로 하고 
 태그는 [판매1위] 이런식으로 템플릿을 합니다.
+productInfo : 
 
 
 <img src="3.png" style="width: 800px; height: auto;" alt="설명">
-### 1\. API 개요 (선택 사항)
-
-> **Base URL:** `https://api.example.com/api/v1`  
-> **Authentication:** JWT Access/Refresh token (Cookie 헤더)
 
 -----
 
@@ -143,7 +141,15 @@
 
 | Name | Type | Required | Description |
 | :--- | :--- | :---: | :--- |
-| - | - | - | - |
+| id | Long | - | - |
+| title | String | - | - |
+| content | String | - | - |
+| productUrl | String | - | - |
+| ImageUrl | String  | - | - |
+| price | integer | - | - |
+| tagName | String | - | (판매2위) |
+| hashtagName | String | - | - |
+
 
 #### **Request Body**
 ```json
@@ -171,6 +177,7 @@
     "id": "success",
     "title":
     "image url":
+    "productInfo"
     "content":
     "price":
   }
@@ -186,6 +193,7 @@
     "id": "success",
     "title":
     "image url":
+    "productInfo"
     "content":
     "price":
   }
@@ -193,6 +201,7 @@
     "id": "success",
     "title":
     "image url":
+    "productInfo"
     "content":
     "price":
   }
@@ -200,6 +209,7 @@
     "id": "success",
     "title":
     "image url":
+    "productInfo"
     "content":
     "price":
   }
