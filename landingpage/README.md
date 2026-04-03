@@ -1,6 +1,5 @@
 <img src="1.png" style="width: 800px; height: auto;" alt="설명">
 
-<<<<<<< HEAD
 # 필요시 협의 내용들
 # 
 
