@@ -5,11 +5,10 @@
 <img src="store_all_page2.png" style="width: 500px; height: auto;" alt="설명">
 
 
-엔드 포인트 : api/v1/category/all
-
-```
+## 엔드 포인트 : api/v1/category/all
 
 메인
+
 ```json
 {
   "status": "success",
