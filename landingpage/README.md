@@ -11,12 +11,6 @@
 =======
 
 ## 지금은 사용자에게 렌더링하는 페이지
-### 1\. API 개요 (선택 사항)
-
-> **Base URL:** `https://api.example.com/api/v1`  
-> **Authentication:** JWT Access/Refresh token (Cookie 헤더)
-
------
 
 ### 2\. 엔드포인트 상세 (Example)
 
@@ -72,9 +66,6 @@
 
 ### 1\. API 개요 (선택 사항)
 
-### 2\. 엔드포인트 상세 (Example)
-
-### `GET /users/{id}`
 
 사용자의 상세 정보를 조회합니다.
 
@@ -139,10 +130,6 @@
 > **Authentication:** JWT Access/Refresh token (Cookie 헤더)
 
 -----
-
-### 2\. 엔드포인트 상세 (Example)
-
-### `GET` /api/v1/main
 
 사용자의 상세 정보를 조회합니다.
 
@@ -233,10 +220,6 @@
 
 -----
 
-### 2\. 엔드포인트 상세 
-
-### `GET /api/v1/main
-
 사용자의 상세 정보를 조회합니다.
 
 #### **Request Parameters**
@@ -284,10 +267,6 @@
 
 -----
 
-### 2\. 엔드포인트 상세 
-
-### `GET /api/v1/main
-
 사용자의 상세 정보를 조회합니다.
 
 #### **Request Parameters**
@@ -330,10 +309,6 @@
 <img src="5.png" style="width: 800px; height: auto;" alt="설명">
 
 -----
-
-### 2\. 엔드포인트 상세 
-
-### `GET /api/v1/main
 
 사용자의 상세 정보를 조회합니다.
 
