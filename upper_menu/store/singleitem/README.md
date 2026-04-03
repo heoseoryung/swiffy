@@ -154,8 +154,9 @@ Res
 
 
 
-## 리뷰 쓰기
+## 리뷰 쓰기 엔드포인트 : api/v1/review/{userId}/{productName}/create 
 ```
+리뷰쓰기 눌렀을 때 Url :
 제목
 상품이미지
 선호도(리뷰)
@@ -164,4 +165,4 @@ Res
 별점
 선호도 선택정보
 content
-이미지or동영상
+media
