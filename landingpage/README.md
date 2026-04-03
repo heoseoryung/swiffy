@@ -1,3 +1,10 @@
+#### **Request Headers** 공통사항
+
+| Name | Value / Type | Required | Description |
+| :--- | :--- | :---: | :--- |
+| `Authorization` | `JWT(Cookie)` | ✅ | API 접근을 위한 인증 토큰 |
+| `Accept` | `application/json` | ✅ | 응답받을 데이터 형식 지정 |
+
 <img src="1.png" style="width: 800px; height: auto;" alt="설명">
 
 # 필요시 협의 내용들
@@ -23,11 +30,13 @@
 | Name | Type | Required | Description |
 | :--- | :--- | :---: | :--- |
 | ImageUrl | - | - | - |
+| 배너로 들어간 Url | | | |
 
 #### **Request Body**
 ```json
 {
-  
+  IamgeUrl : "",
+  배너로 들어간 Url : 
 }
 ```
 
@@ -43,10 +52,7 @@
 {
   "status": "success",
   "data": {
-    "id": 1,
-    "username": "gemini_user",
-    "email": "hello@gemini.ai",
-    "created_at": "2026-04-02T09:00:00Z"
+    "produtpageinfo :
   }
 }
 ```
