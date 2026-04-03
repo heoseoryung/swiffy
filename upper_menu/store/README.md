@@ -42,10 +42,8 @@
 <img src="store_bakery_page1.png" style="width: 500px; height: auto;" alt="설명">
 <img src="store_bakery_page2.png" style="width: 500px; height: auto;" alt="설명">
 
-```
-엔드 포인트 : api/v1/category/snack
-부 카테고리는 : 엔드 포인트 : api/v1/category/snack/시리즈이름
-```
+
+## 엔드 포인트 : api/v1/category/{categoryName}/{subcategoryName}
 
 시리즈 카테고리
 ```json
