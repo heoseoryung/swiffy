@@ -78,8 +78,13 @@
 
 | Name | Type | Required | Description |
 | :--- | :--- | :---: | :--- |
-| `id` | `Integer` | ✅ | 사용자의 고유 ID (Path Variable) |
-| `include_posts` | `Boolean` | ❌ | 작성한 포스트 포함 여부 (Query Param) |
+| id | Long | - | - |
+| title | String | - | - |
+| content | String | - | - |
+| productUrl | String | - | - |
+| ImageUrl | String  | - | - |
+| price | integer | - | - |
+| tagName | String | - | (판매2위) |
 
 #### **Success Response**
 
