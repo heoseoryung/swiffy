@@ -19,8 +19,6 @@
 
 ## 지금은 사용자에게 렌더링하는 페이지
 
-사용자의 상세 정보를 조회합니다.
-
 #### **Request Parameters**
 
 | Name | Type | Required | Description |
@@ -67,8 +65,6 @@
 
 <img src="2.png" style="width: 800px; height: auto;" alt="설명">
 
-
-사용자의 상세 정보를 조회합니다.
 
 #### **Request Parameters**
 
@@ -134,7 +130,6 @@ productInfo :
 
 -----
 
-사용자의 상세 정보를 조회합니다.
 
 #### **Request Parameters**
 
@@ -221,8 +216,6 @@ productInfo :
 
 -----
 
-사용자의 상세 정보를 조회합니다.
-
 #### **Request Parameters**
 
 | Name | Type | Required | Description |
@@ -281,14 +274,19 @@ RequestBody
 
 -----
 
-사용자의 상세 정보를 조회합니다.
-
 #### **Request Parameters**
 
 | Name | Type | Required | Description |
 | :--- | :--- | :---: | :--- |
-| `id` | `Integer` | ✅ | 사용자의 고유 ID (Path Variable) |
-| `include_posts` | `Boolean` | ❌ | 작성한 포스트 포함 여부 (Query Param) |
+| id | Long | ✅ | 사용자의 고유 ID (Path Variable) |
+| title | String |  |  |
+| firstreviewImageUrl | String |  |  |
+| star | integer |  |  |
+| content | String |  |  |
+| average | float |  |  |
+| totalReview | integer |  |  |
+| reviewUrl | String |  |  |
+
 
 #### **Success Response**
 
@@ -297,10 +295,22 @@ RequestBody
 
 <!-- end list -->
 
+RequestBody
 ```json
 {
-  "status": "success",
-  "data": {
+    "Id" : ,
+    "title": "",
+    "firstreviewIamgeUrl": "",
+    "star": "",
+    "content": "",
+    "평균" : "",
+    "리뷰개수" : ,
+    "리뷰보여주는 Url" : ""
+}
+
+```json
+{
+
     "Id" : ,
     "title": "",
     "firstreviewIamgeUrl": "",
@@ -311,8 +321,6 @@ RequestBody
     "리뷰보여주는 Url" : ""
   }
 {
-  "status": "success",
-  "data": {
     "Id" : ,
     "title": "",
     "firstreviewIamgeUrl": "",
